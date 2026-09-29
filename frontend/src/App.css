@@ -508,6 +508,12 @@ select {
   appearance: none;
 }
 
+/* Native dropdown menus use a light surface in many browsers. */
+select option {
+  color: #111827;
+  background-color: #ffffff;
+}
+
 input[type="text"]::placeholder,
 input[type="number"]::placeholder {
   color: var(--text-muted);
